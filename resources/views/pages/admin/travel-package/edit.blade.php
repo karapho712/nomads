@@ -27,6 +27,7 @@
 
                     @method('PUT')
                     @csrf
+                    {{-- testkoment --}}
                     <div class="form-group">
                         <label for="title">Title</label>
                         <input type="text" class="form-control" name="title" placeholder="Title" value="{{ $item->title }}">
